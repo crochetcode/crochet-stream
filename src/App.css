@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  font-size: 3rem;
+  margin: 5px;
+  padding: 0;
+}
+
+iframe, video {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  border: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
