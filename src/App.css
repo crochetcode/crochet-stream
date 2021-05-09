@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 250px;
   pointer-events: none;
 }
 
@@ -15,6 +15,7 @@
 
 .App-header {
   background-color: #282c34;
+  background: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 .App-link {
@@ -37,17 +39,36 @@
   }
 }
 
-p {
-  font-size: 3rem;
-  margin: 5px;
+p, h1 {
   padding: 0;
+  margin: 0;
 }
 
-iframe, video {
+h1 {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+p {
+  font-size: 2rem;;
+}
+
+.text {
+  margin: 5px;
+}
+
+video {
   border-radius: 50%;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
   border: none;
+  box-shadow: 2px 2px 10px 10px black;
+  margin: -5px;
+  border: 10px solid red;
+}
+
+.flip {
+  transform: scaleX(-1);
 }
 
 .flex {
