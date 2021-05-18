@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 250px;
+  height: 200px;
   pointer-events: none;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
   background: black;
+  background: hotpink;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
 
 p, h1 {
   padding: 0;
-  margin: 0;
+  margin: 5px;
 }
 
 h1 {
@@ -49,26 +49,23 @@ h1 {
   line-height: 8rem;
 }
 
+h2 {
+  font-size: 4rem;
+  margin: 15px;
+}
+
 p {
-  font-size: 2rem;;
+  font-size: 2rem;
 }
 
 .text {
   margin: 5px;
 }
 
-video {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  border: none;
-  box-shadow: 2px 2px 10px 10px black;
-  margin: -5px;
-  border: 10px solid red;
-}
-
-.flip {
-  transform: scaleX(-1);
+img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px black;
+  z-index: -1;
 }
 
 .flex {
